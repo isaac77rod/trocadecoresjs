@@ -1,0 +1,12 @@
+#container{
+    background: black;
+    color: white;   
+    width: 300px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    margin-top: 250px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}

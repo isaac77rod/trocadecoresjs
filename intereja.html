@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeto Troca de Cores HTML, CSS, JS</title>
+
+    <link rel="stylesheet" href="interaja.css">
+
+</head>
+<body id="myID">
+
+<div id="container">
+<h1>Trocador de Cores</h1>
+<h3>Escolha sua cor:</h3>
+<button id="botao1" class="botao" onClick="Myaz()">Azul</button>
+<button id="botao2" class="botao" onClick="Myred()">Vermelho</button>
+<button id="botao3" class="botao" onclick="Mygreen()">Verde</button>
+<button id="botao4" class="botao" onclick="MyYellow()">Amarelo</button>
+</div>
+
+<script type='text/javascript'>
+
+function Myaz() {
+var element = document.getElementById("myID");
+var botaoazul = document.getElementById("botao1");
+
+element.style.background='blue';
+botaoazul.style.background='blue';
+}
+
+function Myred() {
+var elementred = document.getElementById("myID");
+var botaovermelho = document.getElementById("botao2");
+
+elementred.style.background='red';
+botaovermelho.style.background='red';
+}
+
+function Mygreen(){
+var elementgreen = document.getElementById("myID");
+var botaoverde = document.getElementById("botao3");
+
+elementgreen.style.background='green'
+botaoverde.style.background='green'
+}
+
+function MyYellow(){
+var elementyelow = document.getElementById("myID");
+var botaoamarelo = document.getElementById("botao4");
+
+elementyelow.style.background='yellow'
+botaoamarelo.style.background='yellow'
+}
+
+</script>
+</body>
+</html>
